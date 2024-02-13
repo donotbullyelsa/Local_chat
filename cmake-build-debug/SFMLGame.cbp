@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SFMLGame"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\Program Files\;CMake Files\..\..\..\..\..\Program Files\JetBrains\;CMake Files\..\..\..\..\..\Program Files\JetBrains\SFML-2.5.1\;CMake Files\..\..\..\..\..\Program Files\JetBrains\SFML-2.5.1\lib\;CMake Files\..\..\..\..\..\Program Files\JetBrains\SFML-2.5.1\lib\cmake\;CMake Files\..\..\..\..\..\Program Files\JetBrains\SFML-2.5.1\lib\cmake\SFML\;CMake Files\..\..\..\..\..\SFML-2.5.1\;CMake Files\..\..\..\..\..\SFML-2.5.1\lib\;CMake Files\..\..\..\..\..\SFML-2.5.1\lib\cmake\;CMake Files\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFMLGame">
+				<Option output="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/SFMLGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/include"/>
+					<Add directory="C:/SFML-2.5.1/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLGame"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFMLGame/fast">
+				<Option output="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/SFMLGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/include"/>
+					<Add directory="C:/SFML-2.5.1/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLGame/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Client.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Client.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Game.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Game.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/Button.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/Button.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/Coins.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/Coins.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/GameObject.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/GameObject.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/Gate.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/Gate.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/Key.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/Key.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/Player.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/Player.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/Well.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/GameObjects/Well.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Gamestates/Gamestates.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Gamestates/Gamestates.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Gamestates/MainGame.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Gamestates/MainGame.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Gamestates/MainMenu.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Gamestates/MainMenu.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Gamestates/Transitions.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Gamestates/Transitions.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Gamestates/WinState.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Gamestates/WinState.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/PacketHeader.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Server.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/Server.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/UI and Layout/ChatMessages.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/UI and Layout/ChatMessages.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/UI and Layout/Chatbox.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/UI and Layout/Chatbox.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/UI and Layout/Layout.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/UI and Layout/Layout.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/UI and Layout/Tile.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/UI and Layout/Tile.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/UI and Layout/UI.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/UI and Layout/UI.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/UI and Layout/Vector.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/UI and Layout/Vector.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/detail/pugiconfig.hpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/detail/pugixml.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/detail/pugixml.hpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/main.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/tmx/FreeFuncs.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/tmx/ImageLayer.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/tmx/LayerGroup.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/tmx/Map.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/tmx/Object.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/tmx/ObjectGroup.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/tmx/ObjectTypes.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/tmx/Property.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/tmx/TileLayer.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/tmx/Tileset.cpp">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/tmx/meson.build">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/tmx/miniz.c">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/src/tmx/miniz.h">
+			<Option target="SFMLGame"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/../../../../../Program Files/JetBrains/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Program Files\JetBrains\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/OneDrive - UWE Bristol/GiCpp/Local_chat/../../../../../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
